@@ -28,9 +28,11 @@ namespace FoodDelivery.Client
 
             await builder.Build().RunAsync();
         }
+
         public void Button_click()
         {
 
         }
+
     }
 }
