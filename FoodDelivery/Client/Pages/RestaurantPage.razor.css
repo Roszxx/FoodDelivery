@@ -1,0 +1,57 @@
+﻿.parent {
+    position: relative;
+    height: 95%;
+    width: 100%;
+}
+
+.chineseFood {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background: lightcoral;
+    top: 0;
+    left: 0;
+    bottom: 300px;
+    right: 500px;
+    border-width: 2px 0px 0px 2px;
+}
+.malayFood {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background: lightgreen;
+    top: 0;
+    left: 500px;
+    bottom: 300px;
+    right: 0;
+    border-width: 2px 2px 0px 0px;
+}
+.japaneseFood {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background: lightpink;
+    top: 300px;
+    left: 0;
+    bottom: 0;
+    right: 500px;
+    border-width: 0px 0px 2px 2px;
+}
+
+.thaiFood {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background: lightgoldenrodyellow;
+    top: 300px;
+    left: 500px;
+    bottom: 0;
+    right: 0;
+    border-width: 0px 2px 2px 0px;
+}
+
+.style {
+    border-style: solid;
+    border-color: black;
+    font: 16px arial;
+}
